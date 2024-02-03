@@ -7235,6 +7235,24 @@ entries:
     urls:
     - https://github.com/open-telemetry/opentelemetry-helm-charts/releases/download/opentelemetry-ebpf-0.1.0/opentelemetry-ebpf-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: v0.10.0
+    created: "2024-02-03T15:24:14.627144007Z"
+    description: OpenTelemetry eBPF Helm chart for Kubernetes
+    digest: 7acf591d251d853e2082ac9ed92b7a3bc92f9f0fc02b4df4fcd4b9d48b42940a
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: TylerHelmuth
+    - name: nicolastakashi
+    name: opentelemetry-ebpf
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-ebpf
+    type: application
+    urls:
+    - https://github.com/hisco/opentelemetry-helm-charts/releases/download/opentelemetry-ebpf-0.0.9/opentelemetry-ebpf-0.0.9.tgz
+    version: 0.0.9
   opentelemetry-operator:
   - apiVersion: v2
     appVersion: 0.92.1
@@ -7254,6 +7272,24 @@ entries:
     urls:
     - https://github.com/open-telemetry/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.46.0/opentelemetry-operator-0.46.0.tgz
     version: 0.46.0
+  - apiVersion: v2
+    appVersion: 0.92.1
+    created: "2024-02-03T15:24:14.79657198Z"
+    description: OpenTelemetry Operator Helm chart for Kubernetes
+    digest: dabef8c940988cf59d93b370a2660ad7c09be6516adfbb0990884d2252323bf9
+    home: https://opentelemetry.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
+    maintainers:
+    - name: Allex1
+    - name: dmitryax
+    - name: TylerHelmuth
+    name: opentelemetry-operator
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-operator
+    type: application
+    urls:
+    - https://github.com/hisco/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.45.9/opentelemetry-operator-0.45.9.tgz
+    version: 0.45.9
   - apiVersion: v2
     appVersion: 0.91.0
     created: "2024-01-12T16:52:30.235629882Z"
@@ -9970,4 +10006,4 @@ entries:
     urls:
     - https://github.com/open-telemetry/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.1.0/opentelemetry-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-01T15:40:07.152451552Z"
+generated: "2024-02-03T15:24:14.797290223Z"
