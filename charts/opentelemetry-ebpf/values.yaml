@@ -42,6 +42,7 @@ kernelCollector:
 
   nodeSelector: {}
   disableHttpMetrics: false
+  disablePrometheus: false
 
   tolerations:
     - operator: "Exists"
