@@ -40,9 +40,6 @@ spec:
             - --{{ .Values.log.level }}
             {{- end }}
             - --enable-aws-enrichment
-            {{- if .Values.reducer.disablePrometheus }}
-            - --disable-prometheus-metrics
-            {{- end }}
             - --enable-otlp-grpc-metrics
             - --otlp-grpc-metrics-host={{ .Values.endpoint.address }}
             - --otlp-grpc-metrics-port={{ .Values.endpoint.port }}
