@@ -19,6 +19,9 @@
       "description": "Cluster Name",
       "type": "string"
     },
+    "podAnnotations": {
+      "type": "object"
+    },
     "endpoint": {
       "type": "object",
       "additionalProperties": false,
