@@ -17,9 +17,9 @@ spec:
       labels:
         app.kubernetes.io/name: {{ include "opentelemetry-collector-reducer.fullname" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
-      {{- if .podAnnotations }}
+      {{- if .Values.podAnnotations }}
       annotations:
-        {{- toYaml .podAnnotations | nindent 8 }}
+        {{- toYaml .Values.podAnnotations | nindent 8 }}
       {{- end }}
     spec:
 {{- if .Values.imagePullSecrets }}
