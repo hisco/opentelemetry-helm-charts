@@ -274,3 +274,5 @@ reducer:
 
 rbac:
   create: true
+
+podAnnotations: {}
